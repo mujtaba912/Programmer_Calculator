@@ -7,9 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="button_color">#DE1D64AF</color>
-    <color name="gray_button_color">#DE616161</color>
-    <color name="orange_button_color">#DEA55005</color>
+    <color name="button_color">#DE165EAA</color>
+    <color name="gray_button_color">#DE5C5C5C</color>
+    <color name="orange_button_color">#DE974802</color>
     <color name="text">#C7EDEDED</color>
     <color name="line">#DE595959</color>
 </resources>
