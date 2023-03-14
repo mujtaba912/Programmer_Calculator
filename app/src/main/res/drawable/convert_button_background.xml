@@ -4,6 +4,6 @@
     <size android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <corners android:radius="@dimen/corners_radius_32dp"/>
-    <solid android:color="@color/gray_button_color"/>
+    <solid android:color="@color/convert_button_color"/>
 
 </shape>

@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="button_color">#DE165EAA</color>
-    <color name="gray_button_color">#DE5C5C5C</color>
+    <color name="convert_button_color">#DE5C5C5C</color>
     <color name="orange_button_color">#DE974802</color>
     <color name="text">#C7EDEDED</color>
     <color name="line">#DE595959</color>

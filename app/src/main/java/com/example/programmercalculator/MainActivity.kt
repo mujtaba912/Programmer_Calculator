@@ -286,11 +286,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun equal() {
         equal.setOnClickListener {
-            getDec()
-            conversation()
-            numberText()
-        }
-    }
+            if (number.text.isNotEmpty()) {
+                getDec()
+                conversation()
+                numberText()
+            } else
+                number.text = number.text
 
+        }
+
+    }
 }
+
+
 
