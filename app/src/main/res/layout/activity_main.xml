@@ -79,7 +79,7 @@
         android:layout_height="1dp"
         android:layout_marginBottom="8dp"
         android:background="@color/line"
-        app:layout_constraintBottom_toTopOf="@+id/B" />
+        app:layout_constraintBottom_toTopOf="@+id/b" />
 
 
     <Button
@@ -96,7 +96,7 @@
         app:layout_constraintBottom_toTopOf="@+id/hex"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/F" />
+        app:layout_constraintStart_toEndOf="@+id/f" />
 
     <Button
         android:id="@+id/nine"
@@ -257,7 +257,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/A"
+        android:id="@+id/a"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_marginStart="16dp"
@@ -267,13 +267,13 @@
         android:text="@string/a"
         android:textColor="@color/text"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/D"
-        app:layout_constraintEnd_toStartOf="@+id/B"
+        app:layout_constraintBottom_toTopOf="@+id/d"
+        app:layout_constraintEnd_toStartOf="@+id/b"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/B"
+        android:id="@+id/b"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_marginStart="16dp"
@@ -283,13 +283,13 @@
         android:text="@string/b"
         android:textColor="@color/text"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/E"
-        app:layout_constraintEnd_toStartOf="@+id/C"
+        app:layout_constraintBottom_toTopOf="@+id/e"
+        app:layout_constraintEnd_toStartOf="@+id/c"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/A" />
+        app:layout_constraintStart_toEndOf="@+id/a" />
 
     <Button
-        android:id="@+id/C"
+        android:id="@+id/c"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_marginStart="16dp"
@@ -299,13 +299,13 @@
         android:text="@string/c"
         android:textColor="@color/text"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/F"
+        app:layout_constraintBottom_toTopOf="@+id/f"
         app:layout_constraintEnd_toStartOf="@+id/equal"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/B" />
+        app:layout_constraintStart_toEndOf="@+id/b" />
 
     <Button
-        android:id="@+id/D"
+        android:id="@+id/d"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_marginStart="16dp"
@@ -316,12 +316,12 @@
         android:textColor="@color/text"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/seven"
-        app:layout_constraintEnd_toStartOf="@+id/E"
+        app:layout_constraintEnd_toStartOf="@+id/e"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/E"
+        android:id="@+id/e"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_marginStart="16dp"
@@ -332,12 +332,12 @@
         android:textColor="@color/text"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/eight"
-        app:layout_constraintEnd_toStartOf="@+id/F"
+        app:layout_constraintEnd_toStartOf="@+id/f"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/D" />
+        app:layout_constraintStart_toEndOf="@+id/d" />
 
     <Button
-        android:id="@+id/F"
+        android:id="@+id/f"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_marginStart="16dp"
@@ -350,7 +350,7 @@
         app:layout_constraintBottom_toTopOf="@+id/nine"
         app:layout_constraintEnd_toStartOf="@+id/CE"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/E" />
+        app:layout_constraintStart_toEndOf="@+id/e" />
 
     <Button
         android:id="@+id/equal"
@@ -365,7 +365,7 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/CE"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/C" />
+        app:layout_constraintStart_toEndOf="@+id/c" />
 
     <Button
         android:id="@+id/hex"

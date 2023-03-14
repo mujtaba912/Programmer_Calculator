@@ -55,17 +55,18 @@ class MainActivity : AppCompatActivity() {
         octNumber = findViewById(R.id.oct_number)
         binNumber = findViewById(R.id.bin_number)
     }
-    private fun hex() {
-        hex.setOnClickListener { stats = 2 }
-    }
+
     private fun dec() {
-        dec.setOnClickListener { stats = 1 }
+        dec.setOnClickListener { stats = 0 }
+    }
+    private fun hex() {
+        hex.setOnClickListener { stats = 1 }
     }
     private fun oct() {
-        oct.setOnClickListener { stats = 3 }
+        oct.setOnClickListener { stats = 2 }
     }
     private fun bin() {
-        bin.setOnClickListener { stats = 4 }
+        bin.setOnClickListener { stats = 3 }
     }
 
     fun onClickNumber(v: View){
@@ -76,11 +77,10 @@ class MainActivity : AppCompatActivity() {
     }
      private fun getDec() {
          when {
-             (stats == 1) -> number.text = number.text
-             (stats == 2) -> number.text = Integer.parseInt(number.text.toString(), 16).toString()
-             (stats == 3) -> number.text = Integer.parseInt(number.text.toString(), 8).toString()
-             (stats == 4) -> number.text = Integer.parseInt(number.text.toString(), 2).toString()
-
+             (stats == 0) -> number.text = number.text
+             (stats == 1) -> number.text = Integer.parseInt(number.text.toString(), 16).toString()
+             (stats == 2) -> number.text = Integer.parseInt(number.text.toString(), 8).toString()
+             (stats == 3) -> number.text = Integer.parseInt(number.text.toString(), 2).toString()
          }
      }
      private fun hexConvert(){
@@ -98,17 +98,28 @@ class MainActivity : AppCompatActivity() {
     private fun decConvert(){
        decNumber.text = number.text
     }
-
-        private fun equal() {
-          equal.setOnClickListener {
-          getDec()
-          hexConvert()
-          binConvert()
-          octConvert()
-          decConvert()
-          }
-
+    private fun conversation(){
+        hexConvert()
+        binConvert()
+        octConvert()
+        decConvert()
+    }
+    private fun numberText(){
+        when {
+            (stats == 0) -> number.text = decNumber.text
+            (stats == 1) -> number.text = hexNumber.text
+            (stats == 2) -> number.text = octNumber.text
+            (stats == 3) -> number.text = binNumber.text
         }
+    }
+
+    private fun equal() {
+        equal.setOnClickListener {
+            getDec()
+            conversation()
+            numberText()
+        }
+    }
 
     }
 
