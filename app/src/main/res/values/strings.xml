@@ -17,17 +17,12 @@
     <string name="e">E</string>
     <string name="f">F</string>
     <string name="dot">.</string>
-    <string name="equals">=</string>
+    <string name="equal">=</string>
     <string name="hex">HEX</string>
     <string name="dec">DEC</string>
     <string name="oct">OCT</string>
     <string name="ce">CE</string>
     <string name="bin">BIN</string>
-    <string name="_0_main_text">0</string>
-    <string name="_0_hex_text">0</string>
-    <string name="_0_dec_text">0</string>
-    <string name="_0_oct_text">0</string>
-    <string name="_0_bin_text">0</string>
     <string name="text_hex">HEX</string>
     <string name="text_dec">DEC</string>
     <string name="text_oct">OCT</string>
